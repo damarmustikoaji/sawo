@@ -1,5 +1,4 @@
 # Template Automation Testing for Web Application
-___
 
 [![Python](https://img.shields.io/badge/Python-2.7.10-lightgrey.svg)](https://www.python.org/)
 [![Selenium](https://img.shields.io/badge/selenium-3.6.0-lightgrey.svg)](http://www.seleniumhq.org/)
@@ -26,10 +25,9 @@ $: python Test.py <email> <password> <url> <browser>
 ```
 EX$: python Test.py test@gmail password123 http://google.com PhantomJS
 ```
-
-#### Note :
-- url = http://piquelab.wonderlabs.io
-- browser = PhantomJS / Chrome / Firefox / Default: Chrome
+#### Note Browser :
+- browser = PhantomJS / Chrome / Firefox / Mobile / Default: Chrome
+- Mobile : with iPhone 5 Chrome emulator
 
 ### Install PhantomJS
 - Install Required Packages
@@ -45,8 +43,8 @@ $ tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
 ```
 
 ```
-sudo ln -s /usr/local/share/phantomjs-x.y.z-linux-x86_64/ /usr/local/share/phantomjs
-sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
+$ sudo ln -s /usr/local/share/phantomjs-x.y.z-linux-x86_64/ /usr/local/share/phantomjs
+$ sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
 ```
 
 - Verify
