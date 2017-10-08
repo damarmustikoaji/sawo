@@ -8,7 +8,7 @@
 [![OperaDriver](https://img.shields.io/badge/OperaDriver-2.30-lightgrey.svg)](https://github.com/operasoftware/operachromiumdriver/releases)
 
 
-### Requrements
+## Requrements
 - Python => 2.7.10
 - Selenium webdriver == 3.6.0
 
@@ -18,7 +18,7 @@
 - Firefox/geckodriver => v0.19.0
 - OperaDriver => 2.30
 
-### Command Arguments
+## Command Arguments
 ```
 $: python Test.py <email> <password> <url> <browser>
 ```
@@ -29,7 +29,7 @@ EX$: python Test.py test@gmail password123 http://google.com PhantomJS
 - browser = PhantomJS / Chrome / Firefox / Mobile / Default: Chrome
 - Mobile : with iPhone 5 Chrome emulator
 
-### Install PhantomJS
+## Install PhantomJS
 - Install Required Packages
 ```
 $ sudo apt-get update
