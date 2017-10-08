@@ -3,8 +3,6 @@ import sys
 import time
 from selenium import webdriver
 
-LOGIN = None
-
 class BelajarTest(unittest.TestCase):
 
     SERVER = None
@@ -35,7 +33,6 @@ class BelajarTest(unittest.TestCase):
         cls.driver.set_window_size(1280, 800)
 
     def test_a_login(self):
-        global LOGIN
         self.startTime = time.time()
         self.driver.get(self.SERVER)
         assert "Google" in self.driver.title
