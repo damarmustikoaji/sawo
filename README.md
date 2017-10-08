@@ -9,14 +9,15 @@
 
 
 ## Requirements
-- Python => 2.7.10
-- Selenium webdriver == 3.6.0
+- Python >= 2.7.10
+- Selenium webdriver >= 3.6.0
+```$ pip install -r requirements.txt```
 
 ## Driver/Browser
-- PhantomJS => 2.1.1
-- ChromeDriver => 2.33
-- Firefox/geckodriver => v0.19.0
-- OperaDriver => 2.30
+- PhantomJS >= 2.1.1
+- ChromeDriver >= 2.33
+- Firefox/geckodriver >= v0.19.0
+- OperaDriver >= 2.30
 
 ## Command Arguments
 ```
@@ -32,7 +33,25 @@ EX$: python Test.py test@gmail password123 http://google.com PhantomJS
 #### Note Browser :
 - Browser = PhantomJS / Chrome / Firefox / Mobile / Default: Chrome
 - Mobile : with iPhone 5 Chrome emulator
-- Directory : ```driver/_file driver_```
+- Path : ```driver/_file driver_```
+```
+EX : webdriver.Chrome(executable_path='driver/chromedriver')
+```
+
+## Virtualenv
+- Install
+```
+$ sudo pip install virtualenv
+```
+- Create virtualenv
+```
+$ virtualenv .env
+$ source venv/bin/activate
+$ deactivate
+```
+- Reference
+- https://dehamzah.com/web/pip-dan-virtualenv-di-python/
+
 
 ## Install PhantomJS
 - Install Required Packages
