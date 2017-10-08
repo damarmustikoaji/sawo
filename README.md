@@ -8,7 +8,7 @@
 [![OperaDriver](https://img.shields.io/badge/OperaDriver-2.30-lightgrey.svg)](https://github.com/operasoftware/operachromiumdriver/releases)
 
 
-## Requrements
+## Requirements
 - Python => 2.7.10
 - Selenium webdriver == 3.6.0
 
@@ -47,8 +47,8 @@ $ tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
 ```
 
 ```
-sudo ln -s /usr/local/share/phantomjs-x.y.z-linux-x86_64/ /usr/local/share/phantomjs
-sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
+$ sudo ln -s /usr/local/share/phantomjs-x.y.z-linux-x86_64/ /usr/local/share/phantomjs
+$ sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
 ```
 
 - Verify
