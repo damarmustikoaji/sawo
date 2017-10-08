@@ -32,7 +32,7 @@ EX$: python Test.py test@gmail password123 http://google.com PhantomJS
 #### Note Browser :
 - Browser = PhantomJS / Chrome / Firefox / Mobile / Default: Chrome
 - Mobile : with iPhone 5 Chrome emulator
-- Directory : ```__driver__/file```
+- Directory : ```driver/_file driver_```
 
 ## Install PhantomJS
 - Install Required Packages
