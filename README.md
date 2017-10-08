@@ -25,15 +25,15 @@ $: python Test.py <email> <password> <url> <browser>
 ```
 EX$: python Test.py test@gmail password123 http://google.com PhantomJS
 ```
+
+![alt text](https://github.com/damarmustikoaji/seleniumwebdriver/blob/master/run.gif "Command Arguments")
+
+
 #### Note Browser :
 - browser = PhantomJS / Chrome / Firefox / Mobile / Default: Chrome
 - Mobile : with iPhone 5 Chrome emulator
 
-<<<<<<< HEAD
-### Install PhantomJS
-=======
 ## Install PhantomJS
->>>>>>> 5e13a5c58643717df01fda7b6e16ace3e5866738
 - Install Required Packages
 ```
 $ sudo apt-get update
@@ -47,8 +47,8 @@ $ tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
 ```
 
 ```
-$ sudo ln -s /usr/local/share/phantomjs-x.y.z-linux-x86_64/ /usr/local/share/phantomjs
-$ sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
+sudo ln -s /usr/local/share/phantomjs-x.y.z-linux-x86_64/ /usr/local/share/phantomjs
+sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
 ```
 
 - Verify
