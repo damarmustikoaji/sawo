@@ -1,4 +1,5 @@
-### Automation Testing The Pique Lab apps
+### Template Automation Testing for Web Application
+___
 
 [![Python](https://img.shields.io/badge/Python-2.7.10-lightgrey.svg)](https://www.python.org/)
 [![Selenium](https://img.shields.io/badge/selenium-3.6.0-lightgrey.svg)](http://www.seleniumhq.org/)
@@ -12,7 +13,13 @@
 - Python => 2.7.10
 - Selenium webdriver == 3.6.0
 
-### Arguments
+## Driver/Browser
+- PhantomJS => 2.1.1
+- ChromeDriver => 2.33
+- Firefox/geckodriver => v0.19.0
+- OperaDriver => 2.30
+
+### Command Arguments
 - $: python Test.py <email> <password> <url> <browser>
 - EX$: python Test.py test@gmail password123 http://google.com PhantomJS
 
