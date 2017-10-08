@@ -26,10 +26,9 @@ $: python Test.py <email> <password> <url> <browser>
 ```
 EX$: python Test.py test@gmail password123 http://google.com PhantomJS
 ```
-
-#### Note :
-- url = http://piquelab.wonderlabs.io
-- browser = PhantomJS / Chrome / Firefox / Default: Chrome
+#### Note Browser :
+- browser = PhantomJS / Chrome / Firefox / Mobile / Default: Chrome
+- Mobile : with iPhone 5 Chrome emulator
 
 ### Install PhantomJS
 - Install Required Packages
