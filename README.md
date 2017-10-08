@@ -11,7 +11,10 @@
 ## Requirements
 - Python >= 2.7.10
 - Selenium webdriver >= 3.6.0
-```$ pip install -r requirements.txt```
+
+```
+$ pip install -r requirements.txt
+```
 
 ## Driver/Browser
 - PhantomJS >= 2.1.1
@@ -38,7 +41,7 @@ EX$: python Test.py test@gmail password123 http://google.com PhantomJS
 EX : webdriver.Chrome(executable_path='driver/chromedriver')
 ```
 
-## Virtualenv
+## Install Virtualenv
 - Install
 ```
 $ sudo pip install virtualenv
