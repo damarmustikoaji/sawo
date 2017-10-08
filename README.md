@@ -1,4 +1,4 @@
-### Template Automation Testing for Web Application
+# Template Automation Testing for Web Application
 ___
 
 [![Python](https://img.shields.io/badge/Python-2.7.10-lightgrey.svg)](https://www.python.org/)
@@ -20,8 +20,12 @@ ___
 - OperaDriver => 2.30
 
 ### Command Arguments
-- $: python Test.py <email> <password> <url> <browser>
-- EX$: python Test.py test@gmail password123 http://google.com PhantomJS
+```
+$: python Test.py <email> <password> <url> <browser>
+```
+```
+EX$: python Test.py test@gmail password123 http://google.com PhantomJS
+```
 
 #### Note :
 - url = http://piquelab.wonderlabs.io
