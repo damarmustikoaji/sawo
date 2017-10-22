@@ -7,7 +7,7 @@
 [![Firefox](https://img.shields.io/badge/geckodriver-v0.19.0-lightgrey.svg)](https://github.com/mozilla/geckodriver/releases)
 [![OperaDriver](https://img.shields.io/badge/OperaDriver-2.30-lightgrey.svg)](https://github.com/operasoftware/operachromiumdriver/releases)
 
-## [WIKI](wiki)
+## [WIKI](https://github.com/damarmustikoaji/seleniumwebdriver/wiki)
 
 ## Requirements
 - Python >= 2.7.10
